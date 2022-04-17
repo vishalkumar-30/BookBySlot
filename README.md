@@ -25,7 +25,7 @@ Book by Slot is a django application developed to book room slots.
 1. date, datetime
 
 
-## How to Run
+## How to Run?
 1. Download and install Python 3.10.3
 2. Open powershell and navigate to the folder where you want to clone the repo `cd targetFolder`
 3. Run `git clone https://github.com/vishalkumar-30/BookBySlot.git`
@@ -87,7 +87,9 @@ In this tab there are three options to manage and add **rooms available**, **tim
 
 #### Updating time slots
 You can add new slots, if any overlapping happens, all such cases are taken care of.
+
 From here you can also delete time slots. If there are no bookings made for the deleted slot, the deletion will take effect from the very next day. Otherwise, the deletion of the slot will take effect from the day next to the day of last Pre-Booking.
+
 <img src="https://github.com/vishalkumar-30/BookBySlot/blob/main/Screenshots/managetimeslots.png" width="700" height="400">
 
 #### Booking History
@@ -101,6 +103,7 @@ The details of customer who booked that room can also be checked here.
 
 #### Update Profile
 User can update when they sign up, and also they can navigate to update profile tab as well.
+
 <img src="https://github.com/vishalkumar-30/BookBySlot/blob/main/Screenshots/managerupdateprofile.png" width="700" height="400">
 
 ### Customer
@@ -146,3 +149,7 @@ Customer can update when they sign up, and also they can navigate to update prof
 2. Activate the virtual environment created above `env/Scripts/activate`
 3. Run `cd BookBySlot`
 4. Run `python manage.py test home`
+
+## Author
+- Name: Vishal Kumar
+- Email: vishal1924s@gmail.com
